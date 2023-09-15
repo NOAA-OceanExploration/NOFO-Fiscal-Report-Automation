@@ -1,3 +1,8 @@
+// s&t doc id
+var originalSpreadsheet = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
+// current doc id
+var newSpreadsheet = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
+
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
   
@@ -15,8 +20,6 @@ function onOpen() {
 }
 
 function figureOne() {
-var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -73,8 +76,6 @@ var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
 }
 
 function figureTwo() {
-  var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -148,9 +149,6 @@ function figureTwo() {
 }
 
 function figureThree() {
-  var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
-
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -214,9 +212,6 @@ function figureThree() {
 
 
 function figureFour() {
-  var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
-
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -278,9 +273,6 @@ function figureFour() {
 }
 
 function figureFive() {
-  var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
-
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -341,8 +333,6 @@ function figureFive() {
 }
 
 function figureSix() {
-  var originalDocId = '17WNH_DGlP9pvsFj4v4EkQnrRv2ygJhR7kxUKliq0qYI';
-  var newDocId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw';
   // Access the original spreadsheet
   var originalSpreadsheet = SpreadsheetApp.openById(originalDocId);
   var originalSheet = originalSpreadsheet.getSheetByName('Calculations');
@@ -428,7 +418,7 @@ function genAll() {
 }
 
 function clearSpreadsheet() {
-  var spreadsheetId = '1YoalnLbU7oKYKfQu-mB4KM-xqVgOEhmafXcdzI4QwHw'; // replace with your Spreadsheet ID
+  var spreadsheetId = newSpreadsheet
   var spreadsheet = SpreadsheetApp.openById(spreadsheetId);
   var sheet = spreadsheet.getSheetByName('Sheet2');
 
