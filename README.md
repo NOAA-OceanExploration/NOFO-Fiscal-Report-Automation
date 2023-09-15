@@ -30,7 +30,7 @@ The provided code automates various tasks such as inserting charts at specific b
 - Google Document
 - Google Sheet with charts and data to be used
 
-## Installation
+## Installation of Google Doc Code (graph.gs)
 
 1. **Open Google Document**: Open the NOFO Template Google Doc where you want to run the script. (https://docs.google.com/document/d/1pLWFshH96w_NLUpRYqDXIeCra5w96dM0WoKK8fvCyMs/edit?usp=sharing)
 2. **Access Script Editor**: Click on `Extensions` > `Script Editor`.
@@ -39,9 +39,16 @@ The provided code automates various tasks such as inserting charts at specific b
 5. **Grant Permissions**: Allow the script to access and manage your documents and spreadsheets.
 6. **Target Correct Documenst**: Assign the correct document IDs to the variables targetSheet (the google sheet with the graphs for the report figures), stMetricsSheet (the S&T Metrics Sheet), docId (the document ID of the report itself), fiscalYear (whatever the current fiscal year is).
 
+## Installation of NOFO Fiscal Report Figures (populate_spreadsheet.gs)
+1. **Open Google Sheet**: Open the NOFO Fiscal Report Figures where you want to run the script which is in the NOFO automation folder.
+2. **Access Script Editor**: Click on `Extensions` > `Script Editor`.
+3. **Copy the Code**: Paste the entire (javascript) code from this repository (populate_spreadsheet.gs) into the script editor.
+4. **Save and Reload**: Press Ctrl + S to save, and reload the Google Document.
+5. **Target Correct Documenst**: Assign the correct document IDs to the variables originalSpreadsheet (S&T Metrics Sheet), and newSpreadsheet (Current Spreadsheet).
+
 ## Usage
 
-### Menu
+### Menu for Google Doc
 
 After the installation, a new menu item 'Functions' will appear in the Google Document toolbar. It includes:
 
@@ -49,6 +56,12 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 - **Clear Images And Charts**: Removes images and charts.
 - **Generate Table**: Creates a table from data in a Google Sheet.
 - **Remove Table**: Deletes the generated table.
+
+### Menu for Google Spreadsheet
+
+After the installation, a new menu item 'Functions' will appear in the Google Document toolbar. It includes:
+
+
 
 ### Document Setup
 
