@@ -29,6 +29,7 @@ The provided code automates various tasks such as inserting charts at specific b
 - Google Account
 - Google Document
 - Google Sheet with charts and data to be used
+- A Local Python Installation (3.9)
 
 ## Installation of Google Doc Code (graph.gs)
 
@@ -61,43 +62,63 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 
 After the installation, a new menu item 'Functions' will appear in the Google Document toolbar. It includes:
 
+- **Generate All Figures**: Calls all figure generation functions (`figureOne` to `figureSix`).
+
+#### 1. Generate Figure One
+
+- Copies specific columns from an original spreadsheet.
+- Sets headers and row names.
+- Inserts data into a new sheet.
+- Creates a column chart.
+
+#### 2. Generate Figure Two
+
+- Similar to Figure One but with different headers and data columns.
+- Sorts data.
+- Creates a column chart.
+
+#### 3. Generate Figure Three
+
+- Similar to Figure One but with different headers and data columns.
+- Sorts data.
+- Creates a column chart.
+
+#### 4. Generate Figure Four
+
+- Similar to Figure One but with different headers and data columns.
+- Sorts data.
+- Creates a column chart.
+
+#### 5. Generate Figure Five
+
+- Similar to Figure One but with different headers and data columns.
+- Sorts data.
+- Creates a column chart.
+
+#### 6. Generate Figure Six
+
+- Calculates sums of specific columns from the original sheet.
+- Copies a specific column from the original sheet.
+- Sorts data.
+- Creates a column chart.
+
+## Spreadsheet Clearing
+
+- **Clear Spreadsheet**: 
+  - Clears all content, formats, and comments from 'Sheet2'.
+  - Removes all charts from 'Sheet2'.
+
 ## Suggested Workflow
 1. **Populate NOFO Fiscal Report Figures**: Create a copy of the template document and use the functions available after installation to populate the sheet.
 2. **Copy Figures into NOFO Report**: Create a copy of the NOFO report template document and use the functions to move the figures and then generate table.
 3. **Use Python Script to Generate Node Graph**: Copy the python script to a local python runtime and include a copy of S&T Metrics in the working directory and copy the resulting node graph into the NOFO Report.
 
-### Document Setup
-
-Ensure that the document and spreadsheets are set up with the correct IDs and bookmarks. You may need to update the `targetSheet`, `stMetricsSheet`, and `docId` variables as per your configuration.
-
-## Functions
-
-Below are detailed descriptions of the main functions:
-
-### `insertChartAtBookmark(targetSheetID, targetBookmarkId, chart_pos)`
-
-Inserts a specific chart from the Google Sheet into the Google Document at a given bookmark.
-
-### `clearImagesAndCharts()`
-
-Clears all the images and charts from the Google Document.
-
-### `copyGraphsFromSpreadsheet()`
-
-Copies multiple figures from a target sheet to bookmarks within the Google Document.
-
-### `copyToTable()`
-
-Copies data from a Google Sheet into a formatted table within a Google Document, applying specific filters and styling.
-
-### `deleteTable()`
-
-Deletes a table at a specific bookmark within the Google Document.
-
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome!
 
 ## License
+
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
 
 This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for more information.
