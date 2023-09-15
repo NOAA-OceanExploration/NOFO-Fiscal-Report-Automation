@@ -62,7 +62,8 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 
 After the installation, a new menu item 'Functions' will appear in the Google Document toolbar. It includes:
 
-- **Generate All Figures**: Calls all figure generation functions (`figureOne` to `figureSix`).
+#### Generate All Figures
+Calls all figure generation functions (`figureOne` to `figureSix`).
 
 #### 1. Generate Figure One
 
@@ -102,7 +103,7 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 - Sorts data.
 - Creates a column chart.
 
-- **Clear Spreadsheet**: 
+#### Clear Spreadsheet
   - Clears all content, formats, and comments from 'Sheet2'.
   - Removes all charts from 'Sheet2'.
 
