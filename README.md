@@ -61,7 +61,10 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 
 After the installation, a new menu item 'Functions' will appear in the Google Document toolbar. It includes:
 
-
+## Suggested Workflow
+1. **Populate NOFO Fiscal Report Figures**: Create a copy of the template document and use the functions available after installation to populate the sheet.
+2. **Copy Figures into NOFO Report**: Create a copy of the NOFO report template document and use the functions to move the figures and then generate table.
+3. **Use Python Script to Generate Node Graph**: Copy the python script to a local python runtime and include a copy of S&T Metrics in the working directory and copy the resulting node graph into the NOFO Report.
 
 ### Document Setup
 
