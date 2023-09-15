@@ -102,8 +102,6 @@ After the installation, a new menu item 'Functions' will appear in the Google Do
 - Sorts data.
 - Creates a column chart.
 
-## Spreadsheet Clearing
-
 - **Clear Spreadsheet**: 
   - Clears all content, formats, and comments from 'Sheet2'.
   - Removes all charts from 'Sheet2'.
