@@ -32,7 +32,7 @@ The provided code automates various tasks such as inserting charts at specific b
 
 ## Installation
 
-1. **Open Google Document**: Open the Google Document where you want to run the script.
+1. **Open Google Document**: Open the NOFO Template Google Doc where you want to run the script. (https://docs.google.com/document/d/1pLWFshH96w_NLUpRYqDXIeCra5w96dM0WoKK8fvCyMs/edit?usp=sharing)
 2. **Access Script Editor**: Click on `Extensions` > `Script Editor`.
 3. **Copy the Code**: Paste the entire code from this repository into the script editor.
 4. **Save and Reload**: Press Ctrl + S to save, and reload the Google Document.
