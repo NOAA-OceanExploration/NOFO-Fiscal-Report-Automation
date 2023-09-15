@@ -34,9 +34,10 @@ The provided code automates various tasks such as inserting charts at specific b
 
 1. **Open Google Document**: Open the NOFO Template Google Doc where you want to run the script. (https://docs.google.com/document/d/1pLWFshH96w_NLUpRYqDXIeCra5w96dM0WoKK8fvCyMs/edit?usp=sharing)
 2. **Access Script Editor**: Click on `Extensions` > `Script Editor`.
-3. **Copy the Code**: Paste the entire (javascript) code from this repository (populate_spreadsheet.gs) into the script editor.
+3. **Copy the Code**: Paste the entire (javascript) code from this repository (graph.gs) into the script editor.
 4. **Save and Reload**: Press Ctrl + S to save, and reload the Google Document.
 5. **Grant Permissions**: Allow the script to access and manage your documents and spreadsheets.
+6. **Target Correct Documenst**: Assign the correct document IDs to the variables targetSheet (the google sheet with the graphs for the report figures), stMetricsSheet (the S&T Metrics Sheet), docId (the document ID of the report itself), fiscalYear (whatever the current fiscal year is).
 
 ## Usage
 
